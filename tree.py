@@ -22,7 +22,7 @@ def install_logic():
         'curl -sL "ascii.live/$c" & PID=$!; sleep 5; kill $PID 2>/dev/null)\n'
     )
     
-    profile_path = Path.home() / ".bash_profile"
+    profile_path = Path.home() / ".bashrc"
     
     try:
         if profile_path.exists():

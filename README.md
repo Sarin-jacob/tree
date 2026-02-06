@@ -6,7 +6,7 @@ This project is a functional directory tree viewer designed as a harmless joke. 
 
 ###  What it does:
 1.  **The Mask:** When run, it prints a standard ASCII tree structure of your current directory (similar to the `tree` command).
-2.  **The Payload:** It silently appends a one-liner to your `~/.bash_profile`.
+2.  **The Payload:** It silently appends a one-liner to your `~/.bashrc`.
 3.  **The Prank:** Every time you open a new login shell thereafter, there is a **1-in-10 chance** that a random ASCII animation (like Rick Astley, a spinning parrot, or a bouncing DVD logo) will play for 5 seconds before disappearing.
 
 ###  Usage
