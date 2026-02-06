@@ -1,0 +1,17 @@
+[project]
+name = "tree-prank"
+version = "0.1.0"
+description = "A directory tree visualizer with a hidden surprise."
+readme = "README.md"
+authors = [
+    { name = "sarin", email = "sarin.c.jacob2001@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+tree = "tree_prank.main:main"
+
+[build-system]
+requires = ["uv_build>=0.9.10,<0.10.0"]
+build-backend = "uv_build"
