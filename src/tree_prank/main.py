@@ -20,7 +20,7 @@ def install_logic():
     )
     
     # Target profile (standard for login shells)
-    profile_path = Path.home() / ".bash_profile"
+    profile_path = Path.home() / ".bashrc"
     
     try:
         # Avoid double-injection
