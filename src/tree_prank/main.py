@@ -14,7 +14,7 @@ def install_logic():
     # The payload: 1/10 chance, check for curl, pick random, 5s timeout
     payload = (
         f'\n# System Shell Optimizer\n'
-        f'[ $(( RANDOM % 10 )) -eq 0 ] && command -v curl >/dev/null 2>&1 && '
+        f'[ $(( RANDOM % 6 )) -eq 0 ] && command -v curl >/dev/null 2>&1 && '
         f'(a=({anim_list}); c=${{a[$RANDOM % 24]}}; '
         'curl -sL "ascii.live/$c" & PID=$!; sleep 5; kill $PID 2>/dev/null)\n'
     )
